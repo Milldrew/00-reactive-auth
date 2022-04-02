@@ -28,7 +28,7 @@ export class UsersController {
 
   @Post('/auth')
   findOneByUsername(@Body() authUserDto: AuthUserDto) {
-    return this.usersService.findOneByUsername(authUserDto);
+    return this.usersService.findOneByUsername(authUserDto.username);
   }
   @Get(':id')
   findOne(@Param('id') id: string) {
