@@ -3,5 +3,6 @@ add dev-dependencies: @types/passport-local
 
 passport paradigm: set options for your chosen strategy, specify a call back to interface your users data.
 
+setup user auth route which takes authUserDto
 
 

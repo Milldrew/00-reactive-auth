@@ -17,8 +17,8 @@ export class UsersService {
     return `This action returns all users`;
   }
 
-  findOneByUsername(authUserDto: AuthUserDto) {
-    return authUserDto;
+  async findOneByUsername(authUserDto: AuthUserDto) {
+    return this.users.find((user) => authUserDto.username === user.username);
   }
   findOne(id: number) {
     return `This action returns a #${id} user`;
