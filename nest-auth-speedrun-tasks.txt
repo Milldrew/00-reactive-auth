@@ -5,4 +5,17 @@ passport paradigm: set options for your chosen strategy, specify a call back to 
 
 setup user auth route which takes authUserDto
 
+connect that to the authModule and auth service whcih validates the password.
+
+implement PassportModule and decorators
+
+-------------------------------
+JWT
+yarn add  @nestjs/jwt passport-jwt
+
+yarn add -D @types/passport-jwt
+
+in auth service add the login method via jwtService
+
+
 
