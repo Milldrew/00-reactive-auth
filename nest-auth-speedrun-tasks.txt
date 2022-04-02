@@ -1,3 +1,7 @@
 add dependencies: @nestjs/passport passport passport-local
 add dev-dependencies: @types/passport-local
 
+passport paradigm: set options for your chosen strategy, specify a call back to interface your users data.
+
+
+
