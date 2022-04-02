@@ -1,0 +1,2 @@
+echo "Authorization: Bearer $1"
+curl http://localhost:3000/profile -H "Authorization: Bearer $1"
